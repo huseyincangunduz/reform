@@ -1,26 +1,26 @@
-# ReformJS
+# Attention: This project will not be maintained anymore and i have no relationship with that organisation. You can follow me on [Linkedin](https://www.linkedin.com/in/huseyincgunduz/), Github (huseyincangunduz) or instagram (hcangunduz.dev) for fore open source libraries and etc.
 
-#### Under development. All suggestions, feedbacks and contribution is welcomed
+# ReformJS
 
 ![ReformJS](./assets/images/reform-logo.png)
 
 ReformJS is a Javascript library developed for building form in detail, validating and managing easily.
 All definitions, validations are made with a object. Inputs, elements are placed according to these definitions.
-And all value changes are tracked by Reflectors. Values is placed by sections and made ready for use. 
+And all value changes are tracked by Reflectors. Values is placed by sections and made ready for use.
 
 ## Getting Started
 
-You can install ReformJS via 
+You can install ReformJS via
 
-```npm install @morphosium/reform``` 
+`npm install @morphosium/reform`
 
 or
 
-```yarn add @morphosium/reform``` 
+`yarn add @morphosium/reform`
 
-or  
+or
 
-```<script src="./path-of/public/bundle/reform.js">```
+`<script src="./path-of/public/bundle/reform.js">`
 
 Code implementation will be like this
 
@@ -40,7 +40,7 @@ const reflector = new Reflector(
                 name: "lastname",
                 label: "Lastname",
             }),
-            /* Sections is represents values group. 
+            /* Sections is represents values group.
             At the final value: State, City and Streets values will be under "address" field */
             new SectionField({
                 name: "address",
@@ -86,20 +86,19 @@ At the same time,at each value change of any input, new value is written in cons
 
 ## Terminology
 
-**Initial fields** represents form build instructions. 
+**Initial fields** represents form build instructions.
 
-Initial fields are separated within itself as *InputField*, *ElementField* and *SectionField*
+Initial fields are separated within itself as _InputField_, _ElementField_ and _SectionField_
 
-**InputFields** are user input instructions contains *name, label, validations* and etc.
+**InputFields** are user input instructions contains _name, label, validations_ and etc.
 
 **ElementField** represents HTMLElement, contains another InitialFields. But at the reflecting into browser, inputs will be seperated according ElementField definitions.
 
 **SectionField** represents object at the value, contains child input and section values
 
-**Reflector** builds form on the screen by provided instructions. At needed, values and validation issues can be fetched from reflector. 
+**Reflector** builds form on the screen by provided instructions. At needed, values and validation issues can be fetched from reflector.
 
-and *(In development for now)* another reflections of initial fields can be made some changes by reaching reflector.
-
+and _(In development for now)_ another reflections of initial fields can be made some changes by reaching reflector.
 
 ## Detailed info
 
