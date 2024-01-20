@@ -1,6 +1,6 @@
 {
   "name": "@morphosium/reform",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A library for build user forms and generating data",
   "main": "public/module/main.js",
   "types": "lib",
@@ -35,10 +35,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Morphosium/reform.git"
+    "url": "git+https://github.com/huseyincangunduz/reform.git"
   },
   "bugs": {
-    "url": "https://github.com/Morphosium/reform/issues"
+    "url": "https://github.com/huseyincangunduz/reform/issues"
   },
-  "homepage": "https://github.com/Morphosium/reform#readme"
+  "homepage": "https://github.com/huseyincangunduz/reform#readme"
 }
